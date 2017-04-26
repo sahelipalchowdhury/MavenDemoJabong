@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.jabong.AllTests.LoginTest"/>
+      <!-- class name="com.jabong.AllTests.WomenTest"/-->
+      <!-- class name="com.jabong.AllTests.ReadPropertiesTest"/-->
+      <class name="com.jabong.AllTests.FileUploadTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
