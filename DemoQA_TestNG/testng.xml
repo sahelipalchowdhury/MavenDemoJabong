@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Selectable Test">
+		<parameter name="url1" value="http://demoqa.com/selectable/">
+		</parameter>
+		<classes>
+			<class name="com.demoqa.Pages.PageTitle" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Draggable Test">
+		<parameter name="url1" value="http://demoqa.com/draggable/">
+		</parameter>
+		<classes>
+			<class name="com.demoqa.Pages.PageTitle" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Date Picker Test">
+		<parameter name="url1" value="http://demoqa.com/datepicker/"></parameter>
+		<classes>
+			<class name="com.demoqa.Pages.PageTitle" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Registration Test">
+		<parameter name="url1" value="http://demoqa.com/registration/"></parameter>
+		<classes>
+			<class name="com.demoqa.Pages.PageTitle" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
